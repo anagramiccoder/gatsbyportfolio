@@ -17,7 +17,8 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
+          title,
+          
         }
       }
     }
@@ -29,11 +30,13 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 2000,
+          height:'fit-content',
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>
+        <center>
         <footer
           style={{
             marginTop: `2rem`,
@@ -41,8 +44,8 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+          <a href="https://www.gatsbyjs.com">Gatsby</a>. All Rights Reserved 2022
+        </footer></center>
       </div>
     </>
   )

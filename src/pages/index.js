@@ -1,30 +1,54 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import "../components/layout.css"
+
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+    <center>
+    <div
+      data-sal="slide-right"
+      data-sal-delay="200"
+      data-sal-easing="ease-in"
+      data-sal-repeat
+      class="info"
+    >
+      <h1>Hi I am a Programmer</h1>
+      <p>
+        I am John David Vidad, currently an undergraduate of UP-Diliman. I mainly focus on Mobile/Desktop App Development with simple database, but 
+        I am learning Game Dev and WebDev.
+      </p>
+    </div>
+    <div
+      data-sal="slide-left"
+      data-sal-delay="200"
+      data-sal-easing="ease-in"
+      data-sal-repeat
+      class="info"
+    ><h1>These are the Languages I am Profound At</h1>
+    <p>C,C++,C#, Java, JavaScript<br/>Python, Assembly, .Net,</p>
+    </div>
+    <div
+      data-sal="slide-right"
+      data-sal-delay="200"
+      data-sal-repeat
+      data-sal-easing="ease-in"
+      class="info"
+    >
+      <h1> I also am knowlegeable in the following things for databases</h1>
+      <p>mySQL, SQLite, GraphQL</p>
+    </div>
+    <div
+      data-sal="slide-right"
+      data-sal-delay="200"
+      data-sal-repeat
+      data-sal-easing="ease-in"
+      class="info"
+    ><h1>I do the following</h1><p>WebDev (Gatsbyjs, Reactjs, Django)<br/> PC App Dev (.Net) <br/> Mobile App Dev(.net, React)</p></div>
+    </center>
   </Layout>
 )
 
