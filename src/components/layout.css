@@ -678,4 +678,16 @@ input:checked + .slider:before {
   height:20em;
   text-align: left;
   padding: 1em;
+  display:flex;
+}
+.tilt{
+  border-radius: 50%;
+}
+.tilt:hover{
+  transform:rotate(05deg);
+  transition: 200ms ease-in-out;
+}
+.tiltimg:hover{
+  transform:rotate(05deg);
+  transition: 200ms ease-in-out;
 }

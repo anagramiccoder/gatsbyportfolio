@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../components/layout.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const IndexPage = () => (
@@ -16,11 +17,20 @@ const IndexPage = () => (
       data-sal-repeat
       class="info"
     >
-      <h1>Hi I am a Programmer</h1>
-      <p>
+      
+      <p style={{maxWidth:'70%',paddingLeft:'1em'}}>
+      <h1>Hi!I am a Programmer</h1><br/>
         I am John David Vidad, currently an undergraduate of UP-Diliman. I mainly focus on Mobile/Desktop App Development with simple database, but 
         I am learning Game Dev and WebDev.
-      </p>
+        </p>
+        <StaticImage
+      src="../images/id.png"
+      width={300}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      class="tilt"
+      alt="Profile Picture"
+    />
     </div>
     <div
       data-sal="slide-left"
@@ -28,8 +38,70 @@ const IndexPage = () => (
       data-sal-easing="ease-in"
       data-sal-repeat
       class="info"
-    ><h1>These are the Languages I am Profound At</h1>
-    <p>C,C++,C#, Java, JavaScript<br/>Python, Assembly, .Net,</p>
+    ><section><h1>These are the Languages I am Profound At</h1>
+    <section><StaticImage
+      src="../images/c.png"
+      width={50}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      class="tiltimg"
+      alt="C Language"
+      style={{padding:'1em',margin:'1em'}}
+    />
+    <StaticImage
+      src="../images/cplus.png"
+      width={50}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      class="tiltimg"
+      alt="c++ Language"
+      style={{padding:'1em',margin:'1em'}}
+    /><StaticImage
+    src="../images/js.png"
+    width={50}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="js Language"
+    class='tiltimg'
+    style={{padding:'1em',margin:'1em'}}
+  />
+  <StaticImage
+    src="../images/j.png"
+    width={50}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="java Language"
+    class='tiltimg'
+    style={{padding:'1em',margin:'1em'}}
+  />
+  <StaticImage
+    src="../images/assembly.png"
+    width={50}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="assembly Language"
+    class='tiltimg'
+    style={{padding:'1em',margin:'1em'}}
+  />
+  <StaticImage
+    src="../images/python.png"
+    width={50}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="python Language"
+    class='tiltimg'
+    style={{padding:'1em',margin:'1em'}}
+  />
+  <StaticImage
+    src="../images/dnet.png"
+    width={50}
+    quality={95}
+    formats={["auto", "webp", "avif"]}
+    alt="dotnet Language"
+    class='tiltimg'
+    style={{padding:'1em',margin:'1em'}}
+  />
+  </section> </section>
     </div>
     <div
       data-sal="slide-right"
