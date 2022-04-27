@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_portfolio=self.webpackChunkgatsby_portfolio||[]).push([[853],{7219:function(e,t,l){l.r(t);var n=l(7294),o=l(1597),r=l(9983),a=l(262);t.default=function(){return n.createElement(r.Z,null,n.createElement(a.Z,{title:"Projects"}),n.createElement("div",null,n.createElement("h1",null,"List of Project")),n.createElement(o.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-projects-js-647c66d15b4265af0056.js.map
