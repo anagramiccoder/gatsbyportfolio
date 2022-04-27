@@ -675,7 +675,8 @@ input:checked + .slider:before {
 }
 .info{
   width: 80%;
-  height:20em;
+
+  min-height: 17em;
   text-align: left;
   padding: 1em;
   display:flex;
@@ -690,4 +691,14 @@ input:checked + .slider:before {
 .tiltimg:hover{
   transform:rotate(05deg);
   transition: 200ms ease-in-out;
+}
+.flexchild{
+  flex:1;
+  border:2px solid black;
+  margin-right: 1em;
+  border-radius: 2em;
+  padding:1em;
+  text-align: center;
+  vertical-align: text-bottom;
+  align-items: bottom;
 }

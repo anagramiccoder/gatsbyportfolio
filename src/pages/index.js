@@ -33,12 +33,12 @@ const IndexPage = () => (
     />
     </div>
     <div
-      data-sal="slide-left"
+      data-sal="slide-right"
       data-sal-delay="200"
       data-sal-easing="ease-in"
       data-sal-repeat
       class="info"
-    ><section><h1>These are the Languages I am Profound At</h1>
+    ><section><h1>Languages I know</h1>
     <section>
       <a href="https://visualstudio.microsoft.com/vs/features/cplusplus/"><StaticImage
       src="../images/c.png"
@@ -59,25 +59,8 @@ const IndexPage = () => (
       alt="c++ Language"
       style={{padding:'1em',margin:'1em'}}
     /></a>
-    <a href="https://www.javascript.com/"><StaticImage
-    src="../images/js.png"
-    width={50}
-    quality={95}
-    formats={["auto", "webp", "avif"]}
-    alt="js Language"
-    class='tiltimg'
-    style={{padding:'1em',margin:'1em'}}
-  /></a>
-  <a href="https://www.java.com/en/">
-  <StaticImage
-    src="../images/j.png"
-    width={50}
-    quality={95}
-    formats={["auto", "webp", "avif"]}
-    alt="java Language"
-    class='tiltimg'
-    style={{padding:'1em',margin:'1em'}}
-  /></a>
+    
+  
   <a href="https://webassembly.org/">
   <StaticImage
     src="../images/assembly.png"
@@ -89,27 +72,8 @@ const IndexPage = () => (
     style={{padding:'1em',margin:'1em'}}
   />
   </a>
-  <a href="https://www.python.org/">
-  <StaticImage
-    src="../images/python.png"
-    width={50}
-    quality={95}
-    formats={["auto", "webp", "avif"]}
-    alt="python Language"
-    class='tiltimg'
-    style={{padding:'1em',margin:'1em'}}
-  />
-  </a>
-  <a href="https://dotnet.microsoft.com/en-us/">
-  <StaticImage
-    src="../images/dnet.png"
-    width={50}
-    quality={95}
-    formats={["auto", "webp", "avif"]}
-    alt="dotnet Language"
-    class='tiltimg'
-    style={{padding:'1em',margin:'1em'}}
-  /></a>
+  
+  
   </section> </section>
     </div>
     <div
@@ -119,8 +83,10 @@ const IndexPage = () => (
       data-sal-easing="ease-in"
       class="info"
     >
-      <h1> I also am knowlegeable in the following things for databases</h1>
+      <section>
+      <h1>This is what I use for DataBases</h1>
       <p>mySQL, SQLite, GraphQL</p>
+      </section>
     </div>
     <div
       data-sal="slide-right"
@@ -128,7 +94,88 @@ const IndexPage = () => (
       data-sal-repeat
       data-sal-easing="ease-in"
       class="info"
-    ><h1>I do the following</h1><p>WebDev (Gatsbyjs, Reactjs, Django)<br/> PC App Dev (.Net) <br/> Mobile App Dev(.net, React)</p></div>
+    ><section style={{width:'100%'}}><h1>What I use per project</h1><br/>
+    <section style={{display:'flex',width:'100%'}}>
+      
+        <section class='flexchild'>
+        <a href="https://www.python.org/">
+          <StaticImage
+            src="../images/python.png"
+            width={50}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="python Language"
+            class='tiltimg'
+            style={{padding:'1em',margin:'1em'}}
+          />
+          </a><br/>
+          <a href="https://www.javascript.com/"><StaticImage
+              src="../images/js.png"
+              width={45}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="js Language"
+              class='tiltimg'
+              style={{padding:'1em',margin:'1em'}}
+            /></a>
+          <StaticImage
+              src="../images/html.png"
+              width={45}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="js Language"
+              class='tiltimg'
+              style={{padding:'1em',margin:'1em'}}
+            />
+            <StaticImage
+              src="../images/css.png"
+              width={45}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="js Language"
+              class='tiltimg'
+              style={{padding:'1em',margin:'1em'}}
+            />
+          <br/>Web Development
+        </section>
+        <section class='flexchild'>
+        <a href="https://www.java.com/en/">
+          <StaticImage
+            src="../images/j.png"
+            width={50}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="java Language"
+            class='tiltimg'
+            style={{padding:'1em',margin:'1em'}}
+          /></a>
+          <a href="https://dotnet.microsoft.com/en-us/">
+            <StaticImage
+              src="../images/dnet.png"
+              width={50}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="dotnet Language"
+              class='tiltimg'
+              style={{padding:'1em',margin:'1em'}}
+            /></a>
+          <br/>Desktop App Development
+        </section>
+        <section class='flexchild'>
+        <a href="https://dotnet.microsoft.com/en-us/">
+          <StaticImage
+            src="../images/dnet.png"
+            width={50}
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt="dotnet Language"
+            class='tiltimg'
+            style={{padding:'1em',margin:'1em'}}
+          /></a>
+          <br/>Mobile App Development
+        </section>
+        
+      </section></section></div>
     </center>
   </Layout>
 )
