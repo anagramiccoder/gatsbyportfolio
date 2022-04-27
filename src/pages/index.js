@@ -21,7 +21,7 @@ const IndexPage = () => (
       <p style={{maxWidth:'70%',paddingLeft:'1em'}}>
       <h1>Hi!I am a Programmer</h1><br/>
         I am John David Vidad, currently an undergraduate of UP-Diliman. I mainly focus on Mobile/Desktop App Development with simple database, but 
-        I am learning Game Dev and WebDev.
+        I am learning Game Development Basics and Frameworks that are commonly used in Web Development.
         </p>
         <StaticImage
       src="../images/id.png"
@@ -39,7 +39,8 @@ const IndexPage = () => (
       data-sal-repeat
       class="info"
     ><section><h1>These are the Languages I am Profound At</h1>
-    <section><StaticImage
+    <section>
+      <a href="https://visualstudio.microsoft.com/vs/features/cplusplus/"><StaticImage
       src="../images/c.png"
       width={50}
       quality={95}
@@ -47,7 +48,8 @@ const IndexPage = () => (
       class="tiltimg"
       alt="C Language"
       style={{padding:'1em',margin:'1em'}}
-    />
+    /></a>
+    <a href="https://visualstudio.microsoft.com/vs/features/cplusplus/">
     <StaticImage
       src="../images/cplus.png"
       width={50}
@@ -56,7 +58,8 @@ const IndexPage = () => (
       class="tiltimg"
       alt="c++ Language"
       style={{padding:'1em',margin:'1em'}}
-    /><StaticImage
+    /></a>
+    <a href="https://www.javascript.com/"><StaticImage
     src="../images/js.png"
     width={50}
     quality={95}
@@ -64,7 +67,8 @@ const IndexPage = () => (
     alt="js Language"
     class='tiltimg'
     style={{padding:'1em',margin:'1em'}}
-  />
+  /></a>
+  <a href="https://www.java.com/en/">
   <StaticImage
     src="../images/j.png"
     width={50}
@@ -73,7 +77,8 @@ const IndexPage = () => (
     alt="java Language"
     class='tiltimg'
     style={{padding:'1em',margin:'1em'}}
-  />
+  /></a>
+  <a href="https://webassembly.org/">
   <StaticImage
     src="../images/assembly.png"
     width={50}
@@ -83,6 +88,8 @@ const IndexPage = () => (
     class='tiltimg'
     style={{padding:'1em',margin:'1em'}}
   />
+  </a>
+  <a href="https://www.python.org/">
   <StaticImage
     src="../images/python.png"
     width={50}
@@ -92,6 +99,8 @@ const IndexPage = () => (
     class='tiltimg'
     style={{padding:'1em',margin:'1em'}}
   />
+  </a>
+  <a href="https://dotnet.microsoft.com/en-us/">
   <StaticImage
     src="../images/dnet.png"
     width={50}
@@ -100,7 +109,7 @@ const IndexPage = () => (
     alt="dotnet Language"
     class='tiltimg'
     style={{padding:'1em',margin:'1em'}}
-  />
+  /></a>
   </section> </section>
     </div>
     <div
