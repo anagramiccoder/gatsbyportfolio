@@ -24,8 +24,9 @@ const IndexPage = () => (
         I am learning Game Development Basics and Frameworks that are commonly used in Web Development.
         </p>
         <StaticImage
-      src="../images/id.png"
+      src="../images/logo.png"
       width={300}
+      height={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
       class="tilt"
@@ -65,6 +66,7 @@ const IndexPage = () => (
   <StaticImage
     src="../images/assembly.png"
     width={50}
+    height={50}
     quality={95}
     formats={["auto", "webp", "avif"]}
     alt="assembly Language"

@@ -682,7 +682,8 @@ input:checked + .slider:before {
   display:flex;
 }
 .tilt{
-  border-radius: 50%;
+  height:50%;
+  width:auto;
 }
 .tilt:hover{
   transform:rotate(05deg);
