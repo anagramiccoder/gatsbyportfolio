@@ -25,7 +25,7 @@ const IndexPage = () => (
         </p>
         <StaticImage
       src="../images/logo.png"
-      width={300}
+      width={300 }
       height={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -53,7 +53,7 @@ const IndexPage = () => (
     <a href="https://visualstudio.microsoft.com/vs/features/cplusplus/">
     <StaticImage
       src="../images/cplus.png"
-      width={50}
+      width={70}
       quality={95}
       formats={["auto", "webp", "avif"]}
       class="tiltimg"
@@ -65,8 +65,8 @@ const IndexPage = () => (
   <a href="https://webassembly.org/">
   <StaticImage
     src="../images/assembly.png"
-    width={50}
-    height={50}
+    width={70}
+    height={70}
     quality={95}
     formats={["auto", "webp", "avif"]}
     alt="assembly Language"
@@ -103,7 +103,7 @@ const IndexPage = () => (
         <a href="https://www.python.org/">
           <StaticImage
             src="../images/python.png"
-            width={50}
+            width={70}
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="python Language"
@@ -144,7 +144,7 @@ const IndexPage = () => (
         <a href="https://www.java.com/en/">
           <StaticImage
             src="../images/j.png"
-            width={50}
+            width={70}
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="java Language"
@@ -154,7 +154,7 @@ const IndexPage = () => (
           <a href="https://dotnet.microsoft.com/en-us/">
             <StaticImage
               src="../images/dnet.png"
-              width={50}
+              width={70}
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="dotnet Language"
@@ -167,7 +167,7 @@ const IndexPage = () => (
         <a href="https://dotnet.microsoft.com/en-us/">
           <StaticImage
             src="../images/dnet.png"
-            width={50}
+            width={70}
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="dotnet Language"
