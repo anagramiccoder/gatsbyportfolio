@@ -3,19 +3,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../components/layout.css"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
-import styled from "styled-components"
-const StyledLink=styled(Link)`
-  display: block;
-  color: var(--text);
-  text-align: center;
-  padding-top:0.3rem;
-  text-decoration: none;
-  &:hover {
-    color: var(--hovertext);
-  }
-`
-
+import StyledLink from "../components/menu.js"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />

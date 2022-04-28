@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from "gatsby"
-import styled from "styled-components"
 import "./layout.css"
+import styled from "styled-components"
+import { Link } from 'gatsby'
 const StyledLink=styled(Link)`
   display: block;
   color: var(--text);
