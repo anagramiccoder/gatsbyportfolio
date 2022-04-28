@@ -688,7 +688,7 @@ input:checked + .slider:before {
 .tilt:hover{
   transform:rotate(05deg);
   transition: 200ms ease-in-out;
-}
+}w
 .tiltimg:hover{
   transform:rotate(05deg);
   transition: 200ms ease-in-out;
